@@ -14,11 +14,11 @@ def nseique():
 #testando
 
 def main():
-    df = load_data()
+    df_raw = load_data()
 
-    create_dataframe_section(df)
+    create_dataframe_section(df_raw)
 
-    st.dataframe(df)
+    return None
 
 #comentario :P
 
