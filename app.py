@@ -10,6 +10,7 @@ def create_dataframe_section(df):
 
 
 
+
 def main():
     df_raw = load_data()
 
