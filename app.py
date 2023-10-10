@@ -6,9 +6,12 @@ def load_data():
     return pd.read_csv('data/processed/bikes_completed.csv')
 
 def main():
-    df = load_data()
+    df_raw = load_data()
 
-    st.dataframe(df)
+    st.dataframe(df_raw)
+
+def create_dataframe_section(df):
+    return None
 
 if __name__ == '__main__':
     main()
