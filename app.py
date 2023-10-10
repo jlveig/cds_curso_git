@@ -14,11 +14,9 @@ def nseique():
 #testando
 
 def main():
-    df_raw = load_data()
-
-    create_dataframe_section(df_raw)
-
-    st.dataframe(df_raw)
+    df_raw_zin = load_data()
+    create_dataframe_section(df_raw_zin)
+    st.dataframe(df_raw_zin)
 
 #comentario :P
 
